@@ -6,9 +6,6 @@ on:
 strategy:
   matrix:
     go: ['1.14', '1.15']
-
-  name: ci-golang-strategy
-
 jobs:
   check-application: 
     runs-on: ubuntu-latest
