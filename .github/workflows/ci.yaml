@@ -31,4 +31,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: wallace/ci-go:latest
+          tags: kollen/ci-go:latest
