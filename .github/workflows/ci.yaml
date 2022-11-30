@@ -30,6 +30,5 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v3
         with:
-          context: .
           push: true
-          tags: wallace/ci-gi:latest
+          tags: wallace/ci-go:latest
