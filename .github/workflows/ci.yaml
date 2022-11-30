@@ -32,4 +32,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: wallace/ci-go:latest
+          tags: wallace/ci-gi:latest
